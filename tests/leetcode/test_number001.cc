@@ -1,9 +1,12 @@
 #include <gtest/gtest.h>
-#include "math_operations.h"
+#include "number002.h"
+
+using namespace std;
 
 TEST(MathOperationsTest, Addition) {
     EXPECT_EQ(Add(1, 2), 3);
     EXPECT_EQ(Add(-1, -2), -3);
+    std::cout << "test addition" << std::endl;
 }
 
 TEST(MathOperationsTest, Subtraction) {

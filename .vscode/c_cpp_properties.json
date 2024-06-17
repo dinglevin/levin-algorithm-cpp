@@ -4,8 +4,8 @@
       "name": "Mac",
       "includePath": [
         "${workspaceFolder}/**",
-        "/usr/local/include",
-        "/opt/homebrew/include",
+        "/usr/local/include/",
+        "/opt/homebrew/include/",
         // Xcode 的标准库路径示例
         "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1"
       ],
